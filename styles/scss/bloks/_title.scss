@@ -1,0 +1,11 @@
+.title{
+  @extend %large-text;
+  padding: 0;
+
+  @media (min-width: 1100px) {
+  color: red;
+  }
+  @media (min-width: 2000px) {
+    color: blue;
+  }
+}

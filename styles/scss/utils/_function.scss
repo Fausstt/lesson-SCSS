@@ -1,0 +1,3 @@
+@function getShift($base,$size,$ind){
+  @return   $base + ($ind - 1) * $size
+}
